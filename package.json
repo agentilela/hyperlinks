@@ -8,10 +8,19 @@
     "hyper.app"
   ],
   "dependencies": {
+    "child_process": "^1.0.2",
     "email-regex": "1.0.0",
     "escape-html": "1.0.3",
     "ip-regex": "2.0.0",
+    "path": "^0.12.7",
     "url-regex": "4.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.0",
+    "eslint-plugin-react": "^7.0.0"
+  }
 }
